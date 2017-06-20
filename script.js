@@ -99,7 +99,7 @@ var MovieDescription = React.createClass({
 
 var MovieImage = React.createClass({
   propTypes:{
-    srcElement: React.PropTypes.object.isRequired,
+    srcElement: React.PropTypes.string.isRequired,
   },
   
   render: function(){
